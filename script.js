@@ -108,7 +108,7 @@ humanizeBtn.addEventListener("click", async () => {
         if (data.choices && data.choices.length > 0) {
             outputBox.value = data.choices[0].message.content;
         } else {
-            outputBox.value = "API Key Missing ! Check Js File or download Js file from here (sadsadasd)";
+            outputBox.value = "API Key is Missing !  source files for this app: (https://github.com/Usmantahir0707/Humanize-Ai-Text)";
         }
     } catch (error) {
         console.error("Error fetching from OpenAI:", error);
